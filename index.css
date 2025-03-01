@@ -1,0 +1,46 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: 'Courier New';
+  background-color: #ce7ec6;
+}
+
+nav {
+  background-color: #8d014a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.968);
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* nav ul li {
+  flex-grow: 1;
+} */
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(246, 242, 242);
+  font-size: 16px;
+}
+img{
+  width:auto;
+  height:auto;
+}
+
+h1{
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #03c3f8;
+}
+.football_center {
+  color: #0bc788;
+}

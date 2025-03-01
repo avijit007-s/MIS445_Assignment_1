@@ -1,0 +1,31 @@
+img {
+  height: 250px;
+  width: 450px;
+  border-radius: 10px;
+}
+.text {
+  font-family: "Trirong", serif;
+  text-align: justify;
+}
+.back-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80px;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+body {
+  background-color: rgba(169, 250, 250, 0.445);
+  margin-left: 20px;
+  margin-top: 20px;
+}
